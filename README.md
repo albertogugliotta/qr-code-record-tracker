@@ -7,3 +7,7 @@
 **Formula:**
 
 IMAGE('http://api.qrserver.com/v1/create-qr-code/?data='& (LEFT($Api.Enterprise_Server_URL_210, FIND( "/services", $Api.Enterprise_Server_URL_210) -1)&'/'&Id) &'&size='&TEXT(QR_Code_Size__c),"")
+
+
+
+![Result](https://cloud.githubusercontent.com/assets/4924744/16903329/ba8e54e6-4c51-11e6-8548-79edd067b79b.png | width=100)
