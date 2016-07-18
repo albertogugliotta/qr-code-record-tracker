@@ -6,7 +6,9 @@
 
 **Formula:**
 
+```
 IMAGE('http://api.qrserver.com/v1/create-qr-code/?data='& (LEFT($Api.Enterprise_Server_URL_210, FIND( "/services", $Api.Enterprise_Server_URL_210) -1)&'/'&Id) &'&size='&TEXT(QR_Code_Size__c),"")
+```
 
 **_QR_Code_Size__c_** _is a picklist which defines the size of the Code. e.g. 50x50, 70x70, 100x100_
 
