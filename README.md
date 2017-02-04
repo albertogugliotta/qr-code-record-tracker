@@ -14,4 +14,4 @@ IMAGE('http://api.qrserver.com/v1/create-qr-code/?data='& (LEFT($Api.Enterprise_
 
 ##**Result**
 
-<img src="https://cloud.githubusercontent.com/assets/4924744/16905229/15dbce7e-4c79-11e6-9d9a-4e8e432eb07b.png" width="300">
+<img width="210" alt="qrcode-example" src="https://cloud.githubusercontent.com/assets/4924744/22618912/e162493e-eacf-11e6-8093-aec643e54de4.png">
